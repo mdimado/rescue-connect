@@ -1,0 +1,177 @@
+.rescuebox{
+  height: 200px;
+  width: 400px;
+  background-image: url("../assets/images/rescue1.jpeg");
+  background-size: 100%;
+  border-radius: 20px;
+  box-shadow: #f2e6fc 0px 60px 40px -7px;
+  margin-left: 250px;
+
+}
+
+.rescuebox2{
+  height: 200px;
+  width: 400px;
+  background-image: url("../assets/images/rescue2.jpeg");
+  background-size: 100%;
+  border-radius: 20px;
+  box-shadow: #cee1f8 0px 60px 40px -7px;
+  margin-left: 120px;
+  margin-top: 30px;
+
+}
+
+.rescuebox3{
+  height: 200px;
+  width: 400px;
+  background-image: url("../assets/images/rescue3.jpeg");
+  background-size: 100%;
+  border-radius: 20px;
+  box-shadow: #fbd5da 0px 60px 40px -7px;
+  margin-right: 30px;
+
+}
+
+.rescuebox4{
+  height: 200px;
+  width: 200px;
+  background-image: url("../assets/images/rescue4.jpeg");
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: #d8f3e3 0px 60px 40px -7px;
+  margin-left: 20px;
+
+}
+
+
+
+.pix{
+
+  display: flex;
+  margin-top: 30px;
+  
+}
+
+.whitet{
+  font-weight: 800;
+  font-size: 60px;
+  margin-top: 130px;
+  
+}
+
+.hero_content p{
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.btn{
+  background-color: #000;
+  color: #fff;
+  margin-top: 30px;
+  font-weight: 900;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
+.btn:hover{
+  border: 1px solid #000 !important;
+}
+
+
+.location-suggestions {
+  position: absolute;
+  z-index: 1000; /* Ensure it's on top of other elements */
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5px; /* Adjust the margin as needed */
+}
+
+.location-suggestions li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.location-suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add your CSS styles for RegisterAgency component here */
+section {
+  padding: 20px;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__group span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.crew-members {
+  margin-top: 20px;
+}
+
+.crew-member {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button.buy__button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.buy__button:hover {
+  background-color: #0056b3;
+}
+
+.location-suggestions {
+  list-style-type: none;
+  padding: 0;
+  width: 500px;
+}
+
+.location-suggestions li {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.location-suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
